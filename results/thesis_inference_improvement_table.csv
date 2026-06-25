@@ -1,0 +1,5 @@
+Dataset,Model,Baseline Inference Time Seconds,Optimized Inference Time Seconds,Inference Time Change Seconds,Inference Time Improvement (%)
+NSL-KDD,Dynamic Quantized TFLite CNN,2.75,0.579,2.171,78.95
+UNSW-NB15,Dynamic Quantized TFLite CNN,14.661,3.677,10.984,74.92
+NSL-KDD,50% Magnitude Pruned CNN,2.75,2.601,0.149,5.42
+UNSW-NB15,50% Magnitude Pruned CNN,14.661,14.605,0.056,0.38

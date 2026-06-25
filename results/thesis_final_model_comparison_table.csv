@@ -1,0 +1,7 @@
+Dataset,Model,Accuracy,Precision,Recall,F1-score,Training Time Seconds,Inference Time Seconds,Model Size MB,Sparsity
+NSL-KDD,Baseline CNN,76.61,96.02,61.45,74.94,137.07,2.75,0.489,
+UNSW-NB15,Baseline CNN,92.23,96.1,92.33,94.18,43.73,14.661,0.536,
+NSL-KDD,Dynamic Quantized TFLite CNN,76.62,96.04,61.46,74.95,,0.579,0.046,
+UNSW-NB15,Dynamic Quantized TFLite CNN,92.23,96.1,92.33,94.18,,3.677,0.05,
+NSL-KDD,50% Magnitude Pruned CNN,76.48,96.26,61.05,74.71,,2.601,0.184,50.0
+UNSW-NB15,50% Magnitude Pruned CNN,92.82,95.47,93.92,94.69,,14.605,0.199,50.0

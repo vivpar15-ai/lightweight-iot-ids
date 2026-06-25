@@ -1,0 +1,35 @@
+thesis_env/
+__pycache__/
+.ipynb_checkpoints/
+
+*.pyc
+*.pyo
+*.pyd
+
+.env
+.venv/
+venv/
+
+# Datasets should not be uploaded
+datasets/**/*.csv
+datasets/**/*.txt
+datasets/**/*.gz
+datasets/**/*.zip
+datasets/**/*.rar
+datasets/**/*.7z
+
+# Trained/generated model artifacts
+models/*.h5
+models/*.keras
+models/*.tflite
+models/*.pkl
+
+# Ignore raw/generated result CSVs by default
+results/*.csv
+
+# Keep thesis-ready summary tables
+!results/thesis_final_model_comparison_table.csv
+!results/thesis_model_size_reduction_table.csv
+!results/thesis_inference_improvement_table.csv
+!results/thesis_best_model_summary_table.csv
+!results/all_model_comparison_results.csv

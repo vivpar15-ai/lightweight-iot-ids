@@ -1,0 +1,5 @@
+Dataset,Model,Baseline Size MB,Optimized Size MB,Size Reduction MB,Size Reduction (%)
+NSL-KDD,Dynamic Quantized TFLite CNN,0.489,0.046,0.442,90.52
+UNSW-NB15,Dynamic Quantized TFLite CNN,0.536,0.05,0.485,90.62
+NSL-KDD,50% Magnitude Pruned CNN,0.489,0.184,0.305,62.4
+UNSW-NB15,50% Magnitude Pruned CNN,0.536,0.199,0.336,62.77
